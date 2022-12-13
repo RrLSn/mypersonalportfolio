@@ -122,6 +122,7 @@ nav{
 .page_info span{
     cursor: pointer;
     /* text-decoration: dotted; */
+    text-decoration-color: var(--white);
 }
 
 .page_info span:hover{
