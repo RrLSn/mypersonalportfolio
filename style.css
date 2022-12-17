@@ -344,12 +344,12 @@ nav{
     height: 100%;
 }
 
-/* .intelligence{
-    height: 20rem;
-} */
-
 .intelligence p{
     padding: 0 15rem 0 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #737171;
+    margin-bottom: 1rem;
 }
 
 .Agyle{
@@ -374,18 +374,13 @@ nav{
     border-radius: 3px;
 }
 
-.intelligence p{
+.Hal p,
+.cottages p{
     font-size: 1.2rem;
     line-height: 2rem;
     color: #737171;
     margin-bottom: 1rem;
 }
-
-/* .editor a{
-    text-decoration: none;
-    color: var(--purple);
-    cursor: pointer;
-} */
 .editor{
     display: flex;
     gap: 0.5rem;
@@ -438,7 +433,9 @@ nav{
     color: var(--purple);
 }
 
-.folio_3{
+.folio_3,
+.folio_4,
+.folio_5{
     width: 100%;
     height: 38rem;
     border-bottom: 0.09rem solid #c1c1c1;
@@ -450,22 +447,14 @@ nav{
     grid-template-columns: 1fr 1fr;
 }
 
-/* .laptop_2{
-    
-} */
-
-.Hal{
+.Hal,
+.cottages,
+.tweet{
     height: 20rem;
     padding-top: 5rem;
     padding-left: 4rem;
     /* padding: 0 12rem 0 3rem; */
 }
-
-/* .laptop_2 img,
-.laptop_3 img{
-   width: 100%;
-   height: 100%;
-} */
 
 ._con{
     display: flex;
@@ -489,26 +478,46 @@ nav{
     border-radius: 3px;
 }
 
-.Hal p{
+.folio4_info,
+.folio5_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.slipper,
+.map{
+    display: flex;
+    gap: 1rem;
+}
+
+.slipper h2,
+.map h2{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.slipper div,
+.map div{
+    width: 3rem;
+    height: 1.7rem;
+    margin-top: 1rem;
+    background-color: #5b43d6;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.laptop_4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.tweet p{
+    padding: 0 12rem 0 0;
     font-size: 1.2rem;
     line-height: 2rem;
     color: #737171;
     margin-bottom: 1rem;
 }
-
-.folio_4{
-    width: 100%;
-    height: 38rem;
-    border-bottom: 0.09rem solid #c1c1c1;
-    padding: 5rem 6rem 0 6rem;
-}
-
-.folio4_info{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-/* .laptop_3 img{
-    width: 100%;
-    height: 100%;
- } */
