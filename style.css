@@ -145,11 +145,16 @@ nav{
     cursor: pointer;
 }
 
+.get_started:hover{
+    background-color: #f2cf00;
+}
+
 #services {
     margin-top: 2.5rem;
     width: 100%;
-    height: auto;
+    height: 30rem;
     margin: 8rem 0;
+    border-bottom: 0.09rem solid #c1c1c1;
 }
 
 .service{
@@ -204,4 +209,39 @@ nav{
     display: flex;
     justify-content: space-between;
     padding-top: 2.5rem;
+}
+
+.learnMore{
+    margin: auto;
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 24px;
+    border: 0.09rem solid var(--purple);
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple);
+    cursor: pointer;
+}
+
+.learnMore:hover{
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+#portfolio{
+    width: 100%;
+    height: auto;
+    padding: 0rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.video{
+    height: 20rem;
+}
+
+.portfolio_info{
+    height: 20rem;
 }
