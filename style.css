@@ -434,8 +434,7 @@ nav{
 }
 
 .folio_3,
-.folio_4,
-.folio_5{
+.folio_4{
     width: 100%;
     height: 38rem;
     border-bottom: 0.09rem solid #c1c1c1;
@@ -509,6 +508,12 @@ nav{
     border-radius: 3px;
 }
 
+.folio_5{
+    width: 100%;
+    height: 38rem;
+    padding: 5rem 6rem 0 6rem;
+}
+
 .laptop_4 img{
     width: 100%;
     height: 100%;
@@ -520,4 +525,92 @@ nav{
     line-height: 2rem;
     color: #737171;
     margin-bottom: 1rem;
+}
+
+#Pricing{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom,#7a19f1,#332179);
+    padding-top: 10rem;
+}
+
+#Pricing h1{
+    color: var(--white);
+    text-align: center;
+}
+
+.builds{
+    width: 85%;
+    height: auto;
+    margin: 7rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_build{
+    width: 27rem;
+    height: 25rem;
+    border-radius: 20px;
+    background-color: var(--white);
+    overflow: hidden;
+    position: relative;
+}
+
+.second_build{
+    width: 27rem;
+    height: 35rem;
+    border-radius: 20px;
+    background-color: var(--white);
+    overflow: hidden;
+    position: relative;
+}
+
+.third_build{
+    width: 27rem;
+    height: 50rem;
+    border-radius: 20px;
+    background-color: var(--white);
+}
+
+.ffb_cross{
+    width: 29rem;
+    height: 10rem;
+    transform: rotate(-10deg);
+    background-color: #e0e0e0;
+    opacity: 0.5;
+    margin: -4rem -1.5rem;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.ffbs_cross{
+    width: 7rem;
+    height: 27rem;
+    transform: rotate(15deg);
+    background-color: #e0e0e0;
+    margin: -3.5rem -3rem;
+    position: absolute;
+    /* z-index: 5; */
+    opacity: 0.5;
+}
+
+.ssb_cross{
+    width: 29rem;
+    height: 10rem;
+    transform: rotate(-10deg);
+    background-color: #7205f7;
+    margin: -4rem -1.5rem;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.ssbs_cross{
+    width: 9rem;
+    height: 27rem;
+    transform: rotate(15deg);
+    background-color: #6b0ee1;
+    margin: -3.5rem -5.5rem;
+    position: absolute;
+    /* z-index: 5; */
+    opacity: 0.3;
 }
