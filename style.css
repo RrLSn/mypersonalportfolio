@@ -567,94 +567,109 @@ nav{
 
 .third_build{
     width: 27rem;
-    height: 50rem;
+    height: 45rem;
     border-radius: 20px;
     background-color: var(--white);
     position: relative;
     overflow: hidden;
 }
 
-.first_build h2{
+/* .first_build h2{
     text-align: center;
-}
+} */
 
-.skwed{
+.f-skewed{
     width: 100%;
     height: 4rem;
     background-color: #e0e0e0;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* color: wheat; */
-    /* opacity: 0.5; */
+    opacity: 0.4;
+    color: #737171;
 }
 
-
-.f_cross{
+/* .f_cross{
     width: 100%;
     height: 2rem;
-    /* background-color: #332179; */
-}  
+}   */
 
-.fs_cross{
+.f_cross{
     position: absolute;
     top: 4rem;
     left: 0;
     border-width: 0 0 25px 30rem;
     border-color: transparent transparent transparent #e0e0e0;
     border-style: solid;
+    opacity: 0.4;
 }
 
-/*.ffbs_cross{
+.fside_cross{
     width: 7rem;
-    height: 27rem;
+    height: 28rem;
     transform: rotate(15deg);
     background-color: #e0e0e0;
-    margin: -3.5rem -3rem;
     position: absolute;
-    z-index: 5;
-    opacity: 0.5;
-} */
-
-
-.ssb_cross{
-    width: 29rem;
-    height: 10rem;
-    transform: rotate(-10deg);
-    background-color: #7205f7;
-    margin: -4rem -1.5rem;
-    position: relative;
-    /* z-index: 1; */
+    left: -2.5rem;
+    top: -3rem;
+    /* z-index: 5; */
+    opacity: 0.4;
 }
 
-.ssbs_cross{
-    width: 9rem;
-    height: 27rem;
+.s-skewed{
+    width: 100%;
+    height: 4rem;
+    background-color: var(--purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_cross{
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    border-width: 0 0 25px 30rem;
+    border-color: transparent transparent transparent var(--purple);
+    border-style: solid;
+}
+
+.sside_cross{
+    width: 7rem;
+    height: 30rem;
     transform: rotate(15deg);
     background-color: #6b0ee1;
-    margin: -3.5rem -5.5rem;
     position: absolute;
-    /* z-index: 5; */
+    left: -3rem;
+    top: -3rem;
     opacity: 0.3;
 }
 
-.ttb_cross{
-    width: 29rem;
-    height: 10rem;
-    transform: rotate(-10deg);
+.t-skewed{
+    width: 100%;
+    height: 4rem;
     background-color: var(--yellow);
-    margin: -4rem -1.5rem;
-    position: relative;
-    /* z-index: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ttbs_cross{
-    width: 9rem;
-    height: 27rem;
-    transform: rotate(15deg);
-    background-color: var(--yellow);
-    margin: -3.5rem -5.5rem;
+.t_cross{
     position: absolute;
-    /* z-index: 5; */
+    top: 4rem;
+    left: 0;
+    border-width: 0 0 25px 30rem;
+    border-color: transparent transparent transparent var(--yellow);
+    border-style: solid;
+}
+
+.tside_cross{
+    width: 7rem;
+    height: 30rem;
+    transform: rotate(15deg);
+    background-color: #f2c41a;
+    position: absolute;
+    left: -3rem;
+    top: -3rem;
     opacity: 0.3;
 }
