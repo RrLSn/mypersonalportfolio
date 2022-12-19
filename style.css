@@ -321,7 +321,7 @@ nav{
     display: flex;
     justify-content: center;
     color: #a9a9a9;
-    /* word-spacing: 3em; */
+    letter-spacing: 0.2rem;
 }
 
 .folio2_info{
@@ -535,6 +535,7 @@ nav{
 #Pricing h1{
     color: var(--white);
     text-align: center;
+    letter-spacing: 0.2rem;
 }
 
 .builds{
@@ -593,7 +594,7 @@ nav{
 }   */
 
 .f_cross{
-    position: absolute;
+    /* position: absolute; */
     top: 4rem;
     left: 0;
     border-width: 0 0 25px 30rem;
@@ -624,7 +625,7 @@ nav{
 }
 
 .s_cross{
-    position: absolute;
+    /* position: absolute; */
     top: 4rem;
     left: 0;
     border-width: 0 0 25px 30rem;
@@ -650,10 +651,11 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .t_cross{
-    position: absolute;
+    /* position: absolute; */
     top: 4rem;
     left: 0;
     border-width: 0 0 25px 30rem;
