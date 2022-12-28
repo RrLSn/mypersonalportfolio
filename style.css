@@ -92,19 +92,20 @@ nav{
     flex-direction: column;
     padding: 12rem 0;
     align-items: center;
+    z-index: 0;
 }
 
 #page_intro::after{
-    /* position: absolute; */
+    position: absolute;
     content:"";
     top: 67%;
-    left:60%;
+    left: 60%;
     height: 45px;
     background: var(--purple);
     width:100%;
     transform:translate(-60%, 50%);
     border-radius: 45% / 20px;
-    z-index:-1;
+    z-index: 1;
 }
 
 .page_info{
