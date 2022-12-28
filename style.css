@@ -95,7 +95,7 @@ nav{
 }
 
 #page_intro::after{
-    position: absolute;
+    /* position: absolute; */
     content:"";
     top: 67%;
     left:60%;
