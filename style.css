@@ -95,19 +95,6 @@ nav{
     z-index: 0;
 }
 
-#page_intro::after{
-    position: absolute;
-    content:"";
-    top: 67%;
-    left: 60%;
-    height: 45px;
-    background: var(--purple);
-    width:100%;
-    transform:translate(-60%, 50%);
-    border-radius: 45% / 20px;
-    z-index: 1;
-}
-
 .page_info{
     width: 40rem;
     height: auto;
@@ -231,12 +218,11 @@ nav{
 
 .learnMore:hover{
     background-color: #5b43d6;
-    color: var(--white);
 }
 
-/* .learnMore a:hover{
+.learnMore a:hover{
     color: var(--white);
-} */
+}
 
 #portfolio{
     width: 100%;
@@ -527,151 +513,84 @@ nav{
     margin-bottom: 1rem;
 }
 
-#Pricing{
+#Profile{
     width: 100%;
-    height: auto;
+    height: 100vh;
     background: linear-gradient(to bottom,#7a19f1,#332179);
-    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-#Pricing h1{
+.profileimg{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: linear-gradient(to bottom,#a779de,#231c3e);
+    position: absolute;
+    top: 7rem;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    border: 0.2rem solid var(--white);
+}
+
+.profilecard{
+    width: 28vw;
+    height: 55vh;
+    border-radius: 15px;
+    background: linear-gradient(to bottom,#a779de,#231c3e);
+    position: relative;
+    text-align: center;
+    padding: 6rem 0 0;
+    line-height: 2.5rem;
     color: var(--white);
+}
+
+.profilecard h1{
+    font-size: 2rem;
+}
+
+.profilecard input{
+    width: 10rem;
+    height: 3rem;
+    margin: 2rem 0 0;
+    border: 0.2rem solid var(--purple);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2.5rem 0 0;
+}
+
+.social_link{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 0.2rem solid var(--purple);
+}
+
+.fa{
+    padding: 20px;
+    width: 50px;
     text-align: center;
-    letter-spacing: 0.2rem;
+    text-decoration: none;
+    color: var(--white);
 }
 
-.builds{
-    width: 85%;
-    height: auto;
-    margin: 7rem auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.first_build{
-    width: 27rem;
-    height: 25rem;
-    border-radius: 20px;
-    background-color: var(--white);
-    overflow: hidden;
-    position: relative;
-}
-
-.second_build{
-    width: 27rem;
-    height: 35rem;
-    border-radius: 20px;
-    background-color: var(--white);
-    overflow: hidden;
-    position: relative;
-}
-
-.third_build{
-    width: 27rem;
-    height: 45rem;
-    border-radius: 20px;
-    background-color: var(--white);
-    position: relative;
-    overflow: hidden;
-}
-
-/* .first_build h2{
-    text-align: center;
-} */
-
-.f-skewed{
-    width: 100%;
-    height: 4rem;
-    background-color: #e0e0e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.4;
-    color: #737171;
-}
-
-/* .f_cross{
-    width: 100%;
-    height: 2rem;
-}   */
-
-.f_cross{
-    /* position: absolute; */
-    top: 4rem;
-    left: 0;
-    border-width: 0 0 25px 30rem;
-    border-color: transparent transparent transparent #e0e0e0;
-    border-style: solid;
-    opacity: 0.4;
-}
-
-.fside_cross{
-    width: 7rem;
-    height: 28rem;
-    transform: rotate(15deg);
-    background-color: #e0e0e0;
-    position: absolute;
-    left: -2.5rem;
-    top: -3rem;
-    /* z-index: 5; */
-    opacity: 0.4;
-}
-
-.s-skewed{
-    width: 100%;
-    height: 4rem;
-    background-color: var(--purple);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.s_cross{
-    /* position: absolute; */
-    top: 4rem;
-    left: 0;
-    border-width: 0 0 25px 30rem;
-    border-color: transparent transparent transparent var(--purple);
-    border-style: solid;
-}
-
-.sside_cross{
-    width: 7rem;
-    height: 30rem;
-    transform: rotate(15deg);
-    background-color: #6b0ee1;
-    position: absolute;
-    left: -3rem;
-    top: -3rem;
-    opacity: 0.3;
-}
-
-.t-skewed{
-    width: 100%;
-    height: 4rem;
-    background-color: var(--yellow);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.t_cross{
-    /* position: absolute; */
-    top: 4rem;
-    left: 0;
-    border-width: 0 0 25px 30rem;
-    border-color: transparent transparent transparent var(--yellow);
-    border-style: solid;
-}
-
-.tside_cross{
-    width: 7rem;
-    height: 30rem;
-    transform: rotate(15deg);
-    background-color: #f2c41a;
-    position: absolute;
-    left: -3rem;
-    top: -3rem;
-    opacity: 0.3;
-}
+.fa:hover {
+    opacity: 0.7;
+  }
